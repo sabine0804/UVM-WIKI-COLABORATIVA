@@ -1,0 +1,124 @@
+/* Estilos generales */
+body {
+    font-family: 'Elza', sans-serif;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    font-family: 'Elva', sans-serif;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 10pt;
+  }
+  
+  h2, h3 {
+    font-size: 10pt;
+  }
+  
+  p, h3 {
+    font-size: 8pt;
+  }
+  
+  /* Barra de navegación */
+  header {
+    background-color: red;
+    text-align: right;
+    padding: 10px;
+  }
+  
+  nav button {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    font-family: 'Elva', sans-serif;
+    font-size: 10pt;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Sección de perfil */
+  main {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .perfil {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .foto-perfil {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .foto-perfil img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .editar-icono {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .datos-personales {
+    margin-top: 20px;
+  }
+  
+  /* Sección de carpetas */
+  .carpetas {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .scroll-container {
+    height: 200px;
+    overflow-y: scroll;
+  }
+  
+  .carpeta {
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Sección de comentarios */
+  .comentarios {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .publicar-comentario {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
